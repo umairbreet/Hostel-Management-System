@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminLogin">
+
+
+    <ImageView
+        android:id="@+id/studentCreateAccountImageView"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_height="@dimen/_150sdp"
+        app:srcCompat="@drawable/student"
+        tools:layout_editor_absoluteX="@dimen/_0sdp"
+        tools:layout_editor_absoluteY="@dimen/_40sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_80sdp"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:fontFamily="@font/bungee_shade"
+        android:shadowColor="#00B8D4"
+        android:shadowDx="5"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="Student"
+        android:textColor="#AE6200EA"
+        android:textSize="@dimen/_30ssp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="@dimen/_0sdp"
+        tools:layout_editor_absoluteY="@dimen/_40sdp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/adminlogin"
+        android:layout_marginTop="@dimen/_200sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_350sdp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/_20sdp"
+        app:cardElevation="@dimen/_10sdp"
+        app:cardMaxElevation="@dimen/_12sdp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Create Account"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_20ssp" />
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:ems="15"
+                android:lines="1"
+                android:hint="Username"
+                />
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/_90sdp"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:hint="Password"
+                />
+
+        <EditText
+            android:id="@+id/etRepPassword"
+            android:layout_width="@dimen/_160sdp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_130sdp"
+            android:hint="Repeat Password"
+            android:inputType="textPassword"
+            android:lines="1" />
+        <Button
+            android:id="@+id/create_account"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:background="@drawable/customise_btn_student"
+            android:text="Create/signup"
+            android:textSize="@dimen/_16ssp" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

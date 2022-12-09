@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Student.editText" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">#00B8D4</item>
+        <item name="colorControlActivated">#0091EA</item>
+        <item name="colorControlHighlight">#00BFA5</item>
+    </style>
+</resources>

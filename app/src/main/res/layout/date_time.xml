@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="@dimen/_10sdp"
+    android:layout_height="@dimen/_120sdp">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_5sdp"
+        android:background="@color/teal_700"
+        />
+    <TextView
+        android:id="@+id/textID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="ID"
+        android:textSize="@dimen/_24ssp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date_TIme"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textID"
+        android:padding="@dimen/_5sdp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_below="@+id/dTime"
+        android:background="@color/teal_700"
+        />
+</RelativeLayout>
